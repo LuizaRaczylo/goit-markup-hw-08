@@ -1,0 +1,53 @@
+.mobile-menu {
+    position: relative;
+    list-style: none;
+    font-weight: 500;
+    font-size: $detailFont;
+    line-height: 1.14;
+    align-items: center;
+    &__item {
+        color: $bodyColor;
+        position: relative;
+        font-size: 3em;
+        line-height: 2em;
+        &:hover {
+            color: $brandColor;
+        }
+    }
+}
+
+.mobile-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    &__phone {
+        font-size: 2em;
+        color: $brandColor;
+        margin-left: 40px;
+        margin-top: 5em;
+    }
+    &__email {
+        font-size: 2em;
+        margin-left: 40px;
+        line-height: 2em;
+    }
+    &__socials {
+        font-size: 1em;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            color: $brandColor;
+            list-style: none;
+            padding: 0 15px 0 0;
+            line-height: 1.5em;
+        }
+        li+li {
+            border-left: 1px solid gray;
+            padding: 0 15px;
+        }
+    }
+}

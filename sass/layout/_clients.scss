@@ -1,0 +1,21 @@
+.clients {
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-bottom: 1em;
+    }
+    &__icon {
+        width: 106px;
+        height: 60px;
+    }
+}
+
+@media(min-width: 768px) {
+    .clients {
+        &__item {
+            width: 33.33%;
+        }
+    }
+}
