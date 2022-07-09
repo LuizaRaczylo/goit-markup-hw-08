@@ -6,8 +6,10 @@
     line-height: 1.14;
     align-items: center;
     &__item {
-        color: $bodyColor;
         position: relative;
+    }
+    &__link {
+        color: $bodyColor;
         font-size: 3em;
         line-height: 2em;
         &:hover {
@@ -23,31 +25,34 @@
     right: 0;
     bottom: 0;
     background: #fff;
-    &__phone {
-        font-size: 2em;
-        color: $brandColor;
-        margin-left: 40px;
+    &__contacts {
+        list-style: none;
         margin-top: 5em;
     }
-    &__email {
+    &__item {
         font-size: 2em;
-        margin-left: 40px;
         line-height: 2em;
     }
-    &__socials {
+    &__item--phone {
+        color: $brandColor;
+    }
+    &__item--email {
+        color:$detailColor;
+    }
+    &__social-list {
         font-size: 1em;
         list-style: none;
         display: flex;
         flex-wrap: wrap;
-        li {
+    }
+    &__social {
             color: $brandColor;
             list-style: none;
             padding: 0 15px 0 0;
             line-height: 1.5em;
         }
-        li+li {
+    &__social-link+.mobile-overlay__social-link {
             border-left: 1px solid gray;
-            padding: 0 15px;
+            padding: 0 10px;
         }
     }
-}
