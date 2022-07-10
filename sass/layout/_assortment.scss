@@ -1,7 +1,3 @@
-.container--assortment {
-    display: none
-}
-
 .assortment {
     &__item {
         position: relative;
@@ -23,8 +19,12 @@
     }
 }
 
-@media(min-width: 1200px) {
-    .container__assortment {
-        display: block;
+.container__assortment {
+    display: block;
+    }
+
+@media(max-width: 1199px) {
+    .container--assortment {
+        display: none;
     }
 }

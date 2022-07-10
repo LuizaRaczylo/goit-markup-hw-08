@@ -692,10 +692,6 @@ body {
     margin: 0;
   }
 }
-.container--assortment {
-  display: none;
-}
-
 .assortment__item {
   position: relative;
 }
@@ -715,9 +711,13 @@ body {
   bottom: 4px;
 }
 
-@media (min-width: 1200px) {
-  .container__assortment {
-    display: block;
+.container__assortment {
+  display: block;
+}
+
+@media (max-width: 1199px) {
+  .container--assortment {
+    display: none;
   }
 }
 .team {
