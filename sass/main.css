@@ -629,7 +629,7 @@ body {
   width: 100%;
   margin: 0 auto;
   background-color: #2F303A;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/mobile/banner-mobile-480x400-1x.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./images/background/mobile/banner-mobile-480x400-1x.jpg");
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -650,12 +650,12 @@ body {
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .banner {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/tablet/banner-tablet-768x400-1x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./images/background/tablet/banner-tablet-768x400-1x.jpg");
   }
 }
 @media (min-width: 1200px) {
   .banner {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/desktop/banner-desktop-1600x600-1x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./images/background/desktop/banner-desktop-1600x600-1x.jpg");
     max-width: 1600px;
     max-height: 600px;
   }
@@ -668,17 +668,17 @@ body {
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .banner {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/mobile/banner-mobile-960x800@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./images/background/mobile/banner-mobile-960x800@2x.jpg");
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
   .banner {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/tablet/banner-tablet-1536x800@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./images/background/tablet/banner-tablet-1536x800@2x.jpg");
   }
 }
 @media screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .banner {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/desktop/banner-desktop-3200x1200@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./images/background/desktop/banner-desktop-3200x1200@2x.jpg");
   }
 }
 .specification__list {
