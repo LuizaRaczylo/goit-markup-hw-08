@@ -16,7 +16,7 @@
         font-weight: 700;
         line-height: 1.875;
         margin-top: 30px;
-        margin-bottom: 200px;
+        margin-bottom: 118px;
     }
     &--newsletter {
         width: 200px;
@@ -55,5 +55,12 @@
         line-height: 1.87;
         margin-left: 164px;
         margin-right: 164px;
+    }
+}
+@media(min-width: 1200px) {
+    .button {
+        &--banner {
+            margin-bottom: 200px;
+        }
     }
 }
