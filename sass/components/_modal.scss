@@ -112,6 +112,7 @@
         }
 }
 .policy-accept {
+    display: block;
     font-size: 12px;
     color: $detailColor;
     line-height: 1.71;
@@ -192,5 +193,6 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;
+        padding-left: 15px;
     }
 }

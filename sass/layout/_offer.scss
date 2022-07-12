@@ -40,8 +40,8 @@
         color: $brightColor;
         width: 100%;
         max-width: 100%;
-        height: 294px;
-        padding: 77px 24px;
+        height: 100%;
+        padding: 16px 24px;
         transform: translatey(100%);
         transition: transform 250ms ease;    
             &-text {
@@ -64,6 +64,7 @@
         color: $detailColor;
         font-size: $subjectFont;
         line-height: 1.875;
+        margin: 0;
     }
 }
 
