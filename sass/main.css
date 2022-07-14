@@ -162,7 +162,6 @@ body {
 }
 .order-form__part {
   display: block;
-  max-width: 370px;
   margin-bottom: 10px;
   position: relative;
   font-size: 12px;
@@ -228,10 +227,8 @@ body {
   font-size: 12px;
   color: #757575;
   line-height: 1.71;
-  max-width: 346px;
+  text-align: center;
   height: 24px;
-  margin-left: 40px;
-  margin-right: auto;
   margin-bottom: 30px;
 }
 .policy-accept::before {
@@ -260,6 +257,12 @@ body {
   color: #2196F3;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .policy-accept {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
 @media (min-width: 768px) {
   .modal {
     max-width: 450px;
@@ -680,12 +683,13 @@ body {
   }
 }
 .banner {
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   background-color: #2F303A;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background/mobile/banner-mobile-480x400-1x.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -769,7 +773,7 @@ body {
     gap: 30px;
   }
   .specification__item, .specification__product {
-    max-width: 354px;
+    flex-basis: calc((100% - 30px) / 2);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1065,7 +1069,6 @@ body {
   flex-wrap: wrap;
   justify-content: start;
   row-gap: 0.5em;
-  column-gap: 0.9375em;
 }
 
 @media (min-width: 768px) {
@@ -1085,6 +1088,7 @@ body {
   list-style-type: none;
   display: block;
   padding: 0;
+  margin: 0;
 }
 .offer__item {
   position: relative;
